@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import "tailwindcss";
+
+@font-face {
+  font-family: SpaceGrotesk;
+  src: url(/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Rubik;
+  src: url(/fonts/Rubik-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-Regular.ttf") format("ttf");
+  font-weight: 100 900; /* Allows all weights */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto/Roboto-Bold.ttf") format("ttf");
+  font-weight: 100 900; /* Allows all weights */
+  font-style: normal;
+}
+.font-roboto {
+  font-family: Roboto, sans-serif;
+}
+.font-poppins {
+  font-family: Poppins, sans-serif;
+}
+.font-rubik {
+  font-family: Rubik, sans-serif;
+}
+.font-space-grotesk {
+  font-family: SpaceGrotesk, sans-serif;
+}
